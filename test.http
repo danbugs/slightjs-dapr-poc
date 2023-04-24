@@ -1,0 +1,9 @@
+@baseUrl = http://localhost:3500
+
+### GET baseUrl
+GET {{baseUrl}}/get/order
+dapr-app-id: slightjs-dapr-poc
+
+### POST baseUrl
+POST {{baseUrl}}/post/order
+dapr-app-id: slightjs-dapr-poc
